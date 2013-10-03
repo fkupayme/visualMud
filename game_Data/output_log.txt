@@ -11,7 +11,1609 @@ Platform assembly: C:\Users\anyone\Documents\visualMud\game_Data\Managed\UnityEn
 Loading C:\Users\anyone\Documents\visualMud\game_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\anyone\Documents\visualMud\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\anyone\Documents\visualMud\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.081 seconds
+Platform assembly: C:\Users\anyone\Documents\visualMud\game_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\anyone\Documents\visualMud\game_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.065 seconds
 desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+
+Failed to get pixels of splat texture
+ 
+(Filename:  Line: 181)
+

@@ -48,6 +48,7 @@
      <Compile Include="Assets\scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\scripts\ThirdPersonMovement.cs" />
      <Compile Include="Assets\scripts\randomNPCGenerator.cs" />
+     <Compile Include="Assets\scripts\terrainGenerator.cs" />
      <None Include="Assets\TerrainToolkit\Read me.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
