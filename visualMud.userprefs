@@ -1,6 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\Room.cs">
+    <Files>
+      <File FileName="Assets\scripts\terrainGenerator.cs" Line="56" Column="40" />
+      <File FileName="Assets\scripts\Room.cs" Line="162" Column="34" />
+      <File FileName="Assets\scripts\Area.cs" Line="5" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

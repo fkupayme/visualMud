@@ -29,11 +29,6 @@ public class ThirdPersonMovement : MonoBehaviour {
 			{
 				moveDirection.y = jumpSpeed;
 			}
-			
-			if(moveDirection.x > 0 && moveDirection.z > 0)
-			{
-				Debug.DrawLine(transform.position,10*moveDirection);
-			}
 		}
 		
 		moveDirection.y -= gravity * Time.deltaTime;

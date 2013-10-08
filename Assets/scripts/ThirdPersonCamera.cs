@@ -15,6 +15,6 @@ public class ThirdPersonCamera : MonoBehaviour {
 	// Update is called once per frame
 	void LateUpdate () {
 		transform.position = player.transform.position + positionOffset;
-		//transform.LookAt(player.transform.position);
+		transform.LookAt(player.transform.position);
 	}
 }
