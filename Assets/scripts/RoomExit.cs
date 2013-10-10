@@ -28,12 +28,20 @@ public class RoomExit : MonoBehaviour {
 	
 	}
 	
+	private Room room;
+	public Room Room{
+		get{ return Room;
+		}
+		
+		set{ room = value;}
+	}
+	
 	private bool fired = false;
 	
 	void OnTriggerEnter(Collider other) {
 		if (other.CompareTag("Player"))
 		{
-			if(onEnteredExit != null)
+			if(onEnteredExit != null && !fired)
 			{
 				fired = true;
 	       		onEnteredExit(side);

@@ -3,6 +3,27 @@ using System.Collections;
 
 public class Room {
 	
+	public void addWestExit (Room r)
+	{
+		addExit(NorthMidPoint, WEST, r);
+	}
+	
+	public void addEastExit (Room r)
+	{
+		addExit(NorthMidPoint, EAST, r);
+	}
+	
+	public void addSouthExit (Room r)
+	{
+		addExit(NorthMidPoint, SOUTH, r);
+	}
+	
+	public void addNorthExit (Room r)
+	{
+		addExit(NorthMidPoint, NORTH, r);
+	}
+	
+	
 	private GameObject floor;
 	private GameObject[] walls;
 	private GameObject[] exits;
@@ -13,7 +34,7 @@ public class Room {
 	private bool leaveSouthOpen = false;
 	private bool leaveEastOpen = false;
 	private bool leaveWestOpen = false;
-
+	
 	public bool LeaveEastOpen {
 		get {
 			return this.leaveEastOpen;
@@ -147,46 +168,27 @@ public class Room {
 		exit.transform.position = position;
 		RoomExit roomexit = exit.GetComponent<RoomExit>();
 		roomexit.Side = side;
-		roomexit.onEnteredExit += onEnteredExit;
+		roomexit.onEnteredExit += exitHandler;
 		return exit;
 	}
 	
-	private void onEnteredExit(int side)
+	private GameObject addExit(Vector3 position, int side, Room r)
 	{
-		
-		
-		Room room = new Room();
-		room.TerrainTextures = terrainTextures;
-		room.RoomSize = roomSize;
-		room.WallPrefab = WallPrefab;
-		room.ExitPrefab = ExitPrefab;
-		if(side == NORTH)
-		{
-			room.Position = RoomToNorthPosition;
-			room.LeaveSouthOpen = true;
-		}
-		else if(side == SOUTH)		
-		{
-			room.Position = RoomToSouthPosition;
-			room.LeaveNorthOpen = true;
-		}
-		else if(side == EAST)		
-		{
-			room.Position = RoomToEastPosition;
-			room.LeaveWestOpen = true;
-		}
-		else if(side == WEST)		
-		{
-			room.Position = RoomToWestPosition;
-			room.LeaveEastOpen = true;
-		}
-
-		
-		room.randomizeRoom();
-		
-	
-		
+		GameObject exit = addExit(position,side);
+		exit.GetComponent<RoomExit>().Room = r;
+		return exit;
 	}
+	
+	private RoomExit.EnteredExitHandler exitHandler;
+
+	public RoomExit.EnteredExitHandler ExitHandler {
+		get {
+			return this.exitHandler;
+		}
+		set {
+			exitHandler = value;
+		}
+	}	
 	
 	private void generateWalls()
 	{
@@ -254,7 +256,7 @@ public class Room {
 		return w;
 	}
 	
-	private void generateTerrain()
+	public void generateTerrain()
 	{
 		TerrainData td = new TerrainData();
 		td.size = roomSize;

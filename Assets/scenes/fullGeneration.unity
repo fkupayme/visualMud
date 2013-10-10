@@ -124,7 +124,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 17ce60bc10e844e5a99f5ec8937e6bac, type: 3}
   - {fileID: 2800000, guid: 9d5a367c7b85746008744fb5eb1c92be, type: 3}
   - {fileID: 2800000, guid: 641982c041fad4d7191e007dba791985, type: 3}
-  terrainTileSize: {x: 20, y: 1, z: 20}
+  terrainTileSize: {x: 100, y: 1, z: 100}
   numberOfTilesToLoad: 11
   wall: {fileID: 100000, guid: d85c4da18cc57514c9f0bc133e6fa436, type: 2}
   exit: {fileID: 100000, guid: 80bc5c159ba0f0c4f9a2e086e76ff00d, type: 2}
@@ -231,11 +231,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 0cc20ae61f461474a90797828ea2ee7e, type: 2}
       propertyPath: speed
-      value: 14.1499996
+      value: 9.80000019
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 0cc20ae61f461474a90797828ea2ee7e, type: 2}
       propertyPath: jumpSpeed
-      value: 14.0799999
+      value: 9.90999985
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0cc20ae61f461474a90797828ea2ee7e, type: 2}
@@ -312,7 +312,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1938722721}
   m_Father: {fileID: 0}
 --- !u!114 &1404068928
 MonoBehaviour:
@@ -326,8 +327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84787270313836a4383117ce7a87132d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 14.1499996
-  jumpSpeed: 14.0799999
+  speed: 9.80000019
+  jumpSpeed: 9.90999985
   gravity: 20
 --- !u!1 &1938722716
 GameObject:
@@ -341,7 +342,6 @@ GameObject:
   - 92: {fileID: 1938722719}
   - 124: {fileID: 1938722718}
   - 81: {fileID: 1938722717}
-  - 114: {fileID: 1938722722}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -404,24 +404,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1938722716}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.27478981, z: -16.2155342}
+  m_LocalRotation: {x: .382683486, y: 0, z: 0, w: .923879564}
+  m_LocalPosition: {x: 0, y: 20, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
---- !u!114 &1938722722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1938722716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 786e74a6cccb3ac429138ccb7f1ce075, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  positionOffset: {x: 0, y: 20, z: -20}
-  player: {fileID: 1404068927}
+  m_Father: {fileID: 1404068927}
 --- !u!1 &1941567096
 GameObject:
   m_ObjectHideFlags: 0

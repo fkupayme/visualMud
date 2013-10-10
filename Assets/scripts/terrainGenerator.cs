@@ -18,6 +18,18 @@ public class terrainGenerator : MonoBehaviour {
 			player.SetActive(false);
 		
 	}
+
+	private Room makeDefaultRoom (Vector3 pos)
+	{
+		Room home = new Room();
+		home.TerrainTextures = terrainTextures;
+		home.RoomSize = terrainTileSize + (terrainTileSize * UnityEngine.Random.Range(0.0f, 0.07f));
+		home.WallPrefab = wall;
+		home.ExitPrefab = exit;
+		home.Position = pos;
+		home.ExitHandler = (side) => {Debug.Log (side);};
+		return home;
+	}
 	
 	void OnGUI () {
 //		if (GUI.Button (new Rect (10,10,300,100), "Generate random Square Terrain")) {
@@ -41,19 +53,44 @@ public class terrainGenerator : MonoBehaviour {
 //			
 //			player.SetActive(true);
 //		}
-//		
+		
+		
+		if(GUI.Button (new Rect(10,10,300,100), "Generate Player Home"))
+		{
+			Area newCharArea = new Area();
+			
+			Room home = makeDefaultRoom(player.transform.position - new Vector3(0,1,0));			
+			Room homeN1 = makeDefaultRoom(home.Position + new Vector3(home.RoomSize.x,0,0));
+			homeN1.LeaveSouthOpen = true;
+			homeN1.randomizeRoom();
+			Room homeS1 = makeDefaultRoom(home.Position - new Vector3(home.RoomSize.x,0,0));
+			homeS1.LeaveNorthOpen = true;
+			homeS1.randomizeRoom();
+			Room homeW1 = makeDefaultRoom(home.Position - new Vector3(0,0,home.RoomSize.x));		
+			homeW1.LeaveEastOpen = true;
+			homeW1.randomizeRoom();
+			Room homeE1 = makeDefaultRoom(home.Position + new Vector3(0,0,home.RoomSize.x));
+			homeE1.LeaveWestOpen = true;
+			homeE1.randomizeRoom();
+			
+			home.generateTerrain();
+			
+			home.addNorthExit(homeN1);
+			home.addSouthExit(homeS1);
+			home.addEastExit(homeE1);
+			home.addWestExit(homeW1);
+			
+			player.transform.position = home.WestMidPoint + new Vector3((home.RoomSize.x /2),1,0);
+			player.SetActive(true);
+			
+		}
 		
 		if (GUI.Button (new Rect (10,110,300,100), "Generate Random Room")) {
-			Room room = new Room();
-			room.TerrainTextures = terrainTextures;
-			room.RoomSize = terrainTileSize;
-			room.WallPrefab = wall;
-			room.ExitPrefab = exit;
-			room.Position = player.transform.position - new Vector3(0,1,0);
+			Room room =  makeDefaultRoom(player.transform.position - new Vector3(0,1,0));	
 			
 			room.randomizeRoom();
 			
-			player.transform.position += new Vector3(10,0,10);
+			player.transform.position = room.WestMidPoint + new Vector3((room.RoomSize.x /2),1,0);
 			player.SetActive(true);
 		}
 		

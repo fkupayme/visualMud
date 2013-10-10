@@ -16,24 +16,33 @@ public class ThirdPersonMovement : MonoBehaviour {
 	
 	private Vector3 moveDirection = Vector3.zero;
 	
+	private bool superMoveMode = false;
+	
 	void Update () {
 		
-		if(player.isGrounded)
+		if(superMoveMode)
 		{
-			moveDirection.Set(Input.GetAxis("Horizontal"),0,Input.GetAxis("Vertical"));
-
-			moveDirection = transform.TransformDirection(moveDirection);
-			moveDirection *= speed;
 			
-			if(Input.GetButton("Jump"))
-			{
-				moveDirection.y = jumpSpeed;
-			}
 		}
-		
-		moveDirection.y -= gravity * Time.deltaTime;
-		
-		player.Move(moveDirection*Time.deltaTime);
+		else
+		{
+			if(player.isGrounded)
+			{
+				moveDirection.Set(Input.GetAxis("Horizontal"),0,Input.GetAxis("Vertical"));
+	
+				moveDirection = transform.TransformDirection(moveDirection);
+				moveDirection *= speed;
+				
+				if(Input.GetButton("Jump"))
+				{
+					moveDirection.y = jumpSpeed;
+				}
+			}
+			
+			moveDirection.y -= gravity * Time.deltaTime;
+			
+			player.Move(moveDirection*Time.deltaTime);
+		}
 		
 	}
 }
