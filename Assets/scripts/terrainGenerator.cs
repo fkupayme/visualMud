@@ -12,6 +12,7 @@ public class terrainGenerator : MonoBehaviour {
 	
 	public GameObject wall;
 	public  GameObject exit;
+	public GameObject edge;
 	
 	// Use this for initialization
 	void Start () {
@@ -23,9 +24,10 @@ public class terrainGenerator : MonoBehaviour {
 	{
 		Room home = new Room();
 		home.TerrainTextures = terrainTextures;
-		home.RoomSize = terrainTileSize + (terrainTileSize * UnityEngine.Random.Range(0.0f, 0.07f));
+		home.RoomSize = terrainTileSize;
 		home.WallPrefab = wall;
 		home.ExitPrefab = exit;
+		home.EdgePrefab = edge;
 		home.Position = pos;
 		home.ExitHandler = (side) => {Debug.Log (side);};
 		return home;
@@ -79,6 +81,8 @@ public class terrainGenerator : MonoBehaviour {
 			home.addSouthExit(homeS1);
 			home.addEastExit(homeE1);
 			home.addWestExit(homeW1);
+			
+			home.generateEdges();
 			
 			player.transform.position = home.WestMidPoint + new Vector3((home.RoomSize.x /2),1,0);
 			player.SetActive(true);

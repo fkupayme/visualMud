@@ -3,6 +3,17 @@ using System.Collections;
 
 public class Room {
 	
+	private GameObject edgePrefab;
+
+	public GameObject EdgePrefab {
+		get {
+			return this.edgePrefab;
+		}
+		set {
+			edgePrefab = value;
+		}
+	}	
+	
 	public void addWestExit (Room r)
 	{
 		addExit(NorthMidPoint, WEST, r);
@@ -268,6 +279,23 @@ public class Room {
 		
 		floor =  Terrain.CreateTerrainGameObject(td);
 		floor.transform.position = position;
+	}
+	
+	public void generateEdges(){
+		addEdge(SouthMidPoint, roomSize.x, true);
+		addEdge(NorthMidPoint, roomSize.x, true);
+		addEdge(EastMidPoint, roomSize.z, false);
+		addEdge(WestMidPoint, roomSize.z, false);
+	}
+	
+	private void addEdge(Vector3 pos, float size, bool northSouth)
+	{		
+		GameObject e = Object.Instantiate(edgePrefab) as GameObject;
+		e.transform.position = pos;
+		if(northSouth)
+			e.transform.localScale = new Vector3(size, size ,0);
+		else
+			e.transform.localScale = new Vector3(0,size,size);
 	}
 	
 	

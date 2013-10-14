@@ -37,6 +37,8 @@ public class ThirdPersonMovement : MonoBehaviour {
 				{
 					moveDirection.y = jumpSpeed;
 				}
+				
+				player.transform.Rotate(0,Input.GetAxis("Rotate"),0);
 			}
 			
 			moveDirection.y -= gravity * Time.deltaTime;
