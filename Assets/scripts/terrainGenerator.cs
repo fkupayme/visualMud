@@ -10,6 +10,7 @@ public class terrainGenerator : MonoBehaviour {
 	public Vector3 terrainTileSize = new Vector3(1,1,1);
 	public int numberOfTilesToLoad = 5;
 	
+	public GameObject blackFloor;
 	public GameObject wall;
 	public  GameObject exit;
 	public GameObject edge;
@@ -95,6 +96,11 @@ public class terrainGenerator : MonoBehaviour {
 			room.randomizeRoom();
 			
 			player.transform.position = room.WestMidPoint + new Vector3((room.RoomSize.x /2),1,0);
+			player.SetActive(true);
+		}
+		
+		if (GUI.Button (new Rect (10,210,300,100), "Pitch Black")) {
+			(Instantiate(blackFloor) as GameObject).transform.position = player.transform.position - new Vector3(0,1,0);
 			player.SetActive(true);
 		}
 		

@@ -10,6 +10,8 @@
 		_OutlineColor ("Outline Color", Color) = (0,0,0,1)
 		_OutlineThickness ("Outline Thickness", Range(0,1)) = 0.1
 		_OutlineDiffusion ("OutlineDiffusion", Range(0,1)) = 0.0
+		_MainTex ("Texture", 2D) = "white" {}
+		
 	}
 	SubShader {
 		Pass{
@@ -18,6 +20,7 @@
 		CGPROGRAM 
 		#pragma vertex vert
 		#pragma fragment frag
+      	#include "UnityCG.cginc"
 		
 		uniform fixed4 _Color;
 		uniform fixed4 _UnlitColor;
@@ -29,28 +32,26 @@
 		uniform fixed4 _OutlineColor;
 		uniform fixed _OutlineThickness;
 		uniform fixed _OutlineDiffusion;
+		uniform sampler2D _MainTex;
+		uniform float4 _MainTex_ST;
 
 		uniform half4 _LightColor0;
-		
-		struct vertexInput{
-			half4 vertex : POSITION;
-			half3 normal : NORMAL;
-			half4 tangent : TANGENT;
-		};
 		
 		struct vertexOutput{
 			half4 pos : SV_POSITION;
 			fixed3 normalDir : TEXCOORD0;
 			fixed4 lightDir : TEXCOORD1;
 			fixed3 viewDir : TEXCOORD2;
+			float4 tex : TEXCOORD3;
 		};
 		
-		vertexOutput vert(vertexInput v){
+		vertexOutput vert(appdata_full v){
 			vertexOutput o;
 			
 			o.normalDir = normalize(mul(half4(v.normal, 0.0), _World2Object).xyz);
+			//o.normalDir = v.texcoord;
 			o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
-			
+			 
 			half4 posWorld = mul(_Object2World, v.vertex);
 			
 			o.viewDir = normalize(_WorldSpaceCameraPos.xyz - posWorld.xyz);
@@ -60,7 +61,7 @@
 				normalize( lerp(_WorldSpaceLightPos0.xyz, fragmentToLightSource, _WorldSpaceLightPos0.w)),
 					lerp(1.0,1.0/length(fragmentToLightSource), _WorldSpaceLightPos0.w)
 					);
-					
+			o.tex = v.texcoord; 
 			return o;
 		}
 		
@@ -79,7 +80,10 @@
 			
 			fixed3 lightFinal = (ambientLight + diffuseReflection + specularReflection) * outlineOverlay;
 			
-			return fixed4(lightFinal, 1.0);
+			
+			float4 tex = tex2D(_MainTex, _MainTex_ST.xy * i.tex.xy + _MainTex_ST.zw);
+			
+			return fixed4(lightFinal * tex.rgb , 1.0);
 		}
 
 		

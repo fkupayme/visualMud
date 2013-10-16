@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: robotBodyCartoon center
+  m_Shader: {fileID: 4800000, guid: 56d9fb313d7844e42a820c279e1229d4, type: 3}
+  m_ShaderKeywords: []
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 5a8c7bd50b0414a9db8886654a87a5e7, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 677af9f4d968c4a538a0f8cefffc5302, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 2800000, guid: 6d8342a70cb39469eae3fba44b4a498b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .85929656
+      data:
+        first:
+          name: _DiffuseThreshold
+        second: .151923046
+      data:
+        first:
+          name: _Diffusion
+        second: .361730754
+      data:
+        first:
+          name: _SpecDiffusion
+        second: .99000001
+      data:
+        first:
+          name: _OutlineThickness
+        second: .134615391
+      data:
+        first:
+          name: _OutlineDiffusion
+        second: 0
+      data:
+        first:
+          name: _EmissionLM
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .741176486, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: .411764711, b: .411764711, a: 1}
+      data:
+        first:
+          name: _UnlitColor
+        second: {r: .522058845, g: .153546706, b: .153546706, a: 1}
+      data:
+        first:
+          name: _OutlineColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

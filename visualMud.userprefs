@@ -1,12 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shaders\Tut.shader">
-    <Files>
-      <File FileName="Assets\Shaders\Tut.shader" Line="15" Column="32" />
-      <File FileName="Assets\scripts\terrainGenerator.cs" Line="64" Column="6" />
-      <File FileName="Assets\scripts\Room.cs" Line="295" Column="17" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
