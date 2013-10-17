@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: robotBodyCartoon center
-  m_Shader: {fileID: 4800000, guid: 56d9fb313d7844e42a820c279e1229d4, type: 3}
+  m_Name: robotBody
+  m_Shader: {fileID: 13, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2
@@ -37,27 +37,7 @@ Material:
       data:
         first:
           name: _Shininess
-        second: .85929656
-      data:
-        first:
-          name: _DiffuseThreshold
-        second: .151923046
-      data:
-        first:
-          name: _Diffusion
-        second: .361730754
-      data:
-        first:
-          name: _SpecDiffusion
-        second: .99000001
-      data:
-        first:
-          name: _OutlineThickness
-        second: .134615391
-      data:
-        first:
-          name: _OutlineDiffusion
-        second: 0
+        second: .078125
       data:
         first:
           name: _EmissionLM
@@ -66,19 +46,8 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .741176486, g: 0, b: 0, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
           name: _SpecColor
-        second: {r: 1, g: .411764711, b: .411764711, a: 1}
-      data:
-        first:
-          name: _UnlitColor
-        second: {r: .522058845, g: .153546706, b: .153546706, a: 1}
-      data:
-        first:
-          name: _OutlineColor
-        second: {r: 1, g: 1, b: 1, a: 1}
---- !u!1002 &2100001
-EditorExtensionImpl:
-  serializedVersion: 6
+        second: {r: .5, g: .5, b: .5, a: 1}
